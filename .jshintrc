@@ -1,0 +1,23 @@
+{
+  "node": true,
+  "esnext": true,
+  "bitwise": false,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": false,
+  "newcap": true,
+  "noarg": true,
+  "undef": true,
+  "strict": true,
+  "quotmark": "single",
+  "scripturl": true,
+  "predef": [
+    "before",
+    "beforeEach",
+    "afterEach",
+    "describe",
+    "it"
+  ]
+}
