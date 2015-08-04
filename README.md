@@ -1,4 +1,4 @@
-# qapi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![Build Status][circleci-image]][circleci-url]
+# qapi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![Build Status][circleci-image]][circleci-url] [![Code Climate](https://codeclimate.com/github/calderas/qapi/badges/gpa.svg)](https://codeclimate.com/github/calderas/qapi)
 >
 
 
