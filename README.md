@@ -1,4 +1,4 @@
-# qapi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# qapi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![Build Status][circleci-image]][circleci-url]
 >
 
 
@@ -45,5 +45,7 @@ ISC © [ec]()
 [travis-url]: https://travis-ci.org/calderas/qapi
 [daviddm-image]: https://david-dm.org/calderas/qapi.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/calderas/qapi
-[coveralls-image]: https://coveralls.io/repos/calderas/qapi/badge.svg
+[coveralls-image]: https://coveralls.io/repos/calderas/qapi/badge.svg?branch=master&service=github
 [coveralls-url]: https://coveralls.io/r/calderas/qapi
+[circleci-image]: https://circleci.com/gh/calderas/qapi.svg?&style=shield&circle-token=5f1f746b5735e6bf01b00ff8f55b2dc0c1eb4352
+[circleci-url]: https://circleci.com/gh/calderas/qapi
