@@ -29,6 +29,11 @@ qAPI.results(cb);
 
 ```
 
+## Dev
+* git clone
+* npm install
+* gulp
+
 ## License
 
 ISC © [ec]()
