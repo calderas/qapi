@@ -29,6 +29,7 @@
     "gulp-nsp": "^0.4.5",
     "gulp-plumber": "^1.0.0",
     "jshint-stylish": "^1.0.0",
+    "nock": "^2.9.1",
     "sinon": "^1.15.4"
   },
   "dependencies": {
