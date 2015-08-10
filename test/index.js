@@ -129,4 +129,37 @@ describe('qApi', function () {
     });
     assertApi(expected);
   });
+
+  it('should query goals per time range by fixture', function () {
+    const fixtureId = 1;
+    qApi.goalTimeRangeByFixture(fixtureId);
+    _.extend(expected.qs, {
+      psWidget: 'PRTL_ESTD_GolesXRangMnts',
+      objIdJornada: fixtureId,
+      objFase: 1
+    });
+    assertApi(expected);
+  });
+
+  it('should query goals per time range by team', function () {
+    const teamId = 1;
+    qApi.goalTimeRangeByTeam(teamId);
+    _.extend(expected.qs, {
+      psWidget: 'PRTL_ESTD_GolesXRangMnts',
+      objIDClub: teamId,
+      objFase: 1
+    });
+    assertApi(expected);
+  });
+
+  it('should get videos per game', function () {
+    const gameId = 1;
+    qApi.videos(gameId);
+    _.extend(expected.qs, {
+      psWidget: 'PRTL_BuscarVideosMxM',
+      objIdPartido: gameId,
+      objIdEvento: 1
+    });
+    assertApi(expected);
+  });
 });

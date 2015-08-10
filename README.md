@@ -25,7 +25,10 @@ qApi.strikers(cb);
 qAPI.fairPlay(cb);
 qAPI.defense(cb);
 qAPI.offense(cb);
-qAPI.results(cb);
+qAPI.results(1, cb);
+qAPI.goalTimeRangeByFixture(1, cb);
+qAPI.goalTimeRangeByTeam(1, cb);
+qAPI.videos(1111, cb);
 
 ```
 
